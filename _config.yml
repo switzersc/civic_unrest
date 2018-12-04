@@ -1,10 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
@@ -13,23 +6,57 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Civic Unrest
+email: shelby@civicunrest.com
+tagline: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A home for questions and research about civic technology.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://civicunrest.com" 
+canonical: https://civicunrest.com
+twitter_username: civic_unrest
+
+# Owner/author information
+owner:
+  name:           Shelby Switzer
+  # avatar:         avatar.png
+  # bio:            
+  email:          shelby@civicunrest.com
+  twitter:        switzerly
+  github:         switzersc
+  # disqus:         
+  location:       "New York, NY"
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+future:      true
+highlighter: pygments
+
 plugins:
   - jekyll-feed
 
+timezone:    America/New_York	
+
+sass:
+  style: :compressed
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+  syntax_highlighter_opts:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+# Open Graph customization
+opengraph:
+  locale:           en_US
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -41,3 +68,12 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+links:
+  - title: About
+    url: /about
+
+tools:
+  standards:      "HTML, SCSS, Jekyll"
+  software:       "git"
+
+permalink:   /:categories/:title
