@@ -29,7 +29,6 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gem "coderay"
-gem "pygments.rb"
 gem "rake"
 gem "jekyll-minibundle"
 

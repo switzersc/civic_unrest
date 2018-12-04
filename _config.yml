@@ -30,7 +30,7 @@ owner:
 # Build settings
 markdown: kramdown
 future:      true
-highlighter: pygments
+highlighter: rouge
 
 plugins:
   - jekyll-feed
