@@ -352,11 +352,11 @@ header.site-header nav {
 
 .archive-wrap {
     @include column(10);
-    max-width: 800px;
+    max-width: 1150px;
     display: block;
     margin: 0 auto;
     float: none;
-    padding-top: 140px;
+    padding-top: 80px;
     
     // Post Listing
     .post-list {
