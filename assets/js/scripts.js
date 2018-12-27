@@ -27,15 +27,25 @@ $(document).ready(function() {
 // Header/hero scrolling swap
 $(window).scroll(function() {
   var logo = $("#swap-logo");
-  var header = $("header");
+  var color_logo = $("#change-color-logo");
+  var header = $("#mono-header");
+  var color_header = $("#color-header");
+  var white_logo_src = "/images/simple_title_white.png";
+  var dark_logo_src = "/images/simple_title.png";
 
-  // TODO make responsive and only on homepage
   if (this.scrollY < 400) {
     logo.addClass("hide-header-logo");
     header.removeClass("header-scrolled");
+    color_header.removeClass("header-scrolled");
+    color_header.removeClass("darken");
+    color_logo.src = "/images/simple_title_white.png";
+    $(color_logo).attr("src", white_logo_src);
   } else {
     logo.removeClass("hide-header-logo");
     header.addClass("header-scrolled");
+    color_header.addClass("header-scrolled");
+    color_header.addClass("darken");
+    $(color_logo).attr("src", dark_logo_src);
   }
 });
 

@@ -44,7 +44,7 @@
 
 <div class="bump">
   <body class="">
-    <header class="site-header darken">
+    <header id="mono-header" class="site-header darken">
       <div class="wrap">
         <hgroup>
           <a href="/"><img id="swap-logo" class="header-logo hide-header-logo" src="{{ site.url }}/images/simple_title.png"/></a>
@@ -52,10 +52,6 @@
         <a href="#nav" class="menu header-nav"><span class='icons'>☰</span></a>
         <nav role="navigation" class="header-nav">
           <ul>
-            <li>
-              <a href="/" title="{{ site.title }}">Home</a>
-            </li>
-            
             {% for link in site.links %}
                 <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
             {% endfor %}
@@ -64,5 +60,3 @@
         </nav>
       </div>
     </header>
-  </body>
-</div>

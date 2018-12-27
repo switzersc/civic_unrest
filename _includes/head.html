@@ -44,18 +44,14 @@
 
 <div class="bump">
   <body class="">
-    <header class="site-header">
+    <header id="color-header" class="site-header">
       <div class="wrap">
         <hgroup>
-          <h1><a href="/"><img src="background-image: url({{ site.url }}/images/simple_title.png)"/></a></h1>
+          <a href="/"><img id="change-color-logo" class="header-logo" src="{{ site.url }}/images/simple_title_white.png"/></a>
         </hgroup>
         <a href="#nav" class="menu"><span class='icons'>☰</span></a>
         <nav role="navigation">
           <ul>
-            <li>
-              <a href="/" title="{{ site.title }}">Home</a>
-            </li>
-            
             {% for link in site.links %}
                 <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
             {% endfor %}
