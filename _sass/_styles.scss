@@ -65,6 +65,22 @@ blockquote, blockquote p {
 }
 
 
+/*   Pagination Formatting    */
+
+.pagination {
+  text-align: center;
+}
+
+.next {
+  padding: 0 10px;
+}
+
+.previous {
+  padding: 0 10px;
+}
+
+
+
 /*   Code Formatting    */
 
 code {
@@ -282,42 +298,8 @@ header.site-header nav {
 .article {
     position: relative;
     margin-bottom: $lh;
-    
-    .overlay {
-        vertical-align: middle;
-        min-height: 360px;
-        height: 50vh;
-        width: 100%;
-        max-height: 800px;
-        position: absolute;
-        z-index: 2;
-        background: rgba(0,0,0,.55);
-    }
-    .overlay-lighter {
-        background: rgba(0,0,0,.1);
-    }
-    
-    .featured-image {
-        vertical-align: middle;
-        min-height: 360px;
-        height: 50vh;
-        width: 100%;
-        max-height: 800px;
-        background-position: center center;
-        background-size: cover;
-        vertical-align: middle;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        position: relative;
-        top: 0;
-        z-index: -1;
-        img {
-            max-height: 800px;
-        }
-    }
-    
-    // Header Stuff
+
+    // Article header Stuff
     header {
         margin: (2*$lh) 0 $lh 0;
         hgroup {
@@ -335,11 +317,45 @@ header.site-header nav {
                 margin-top: $lh * 2/3;
             }
         }
-        
-        .intro {
-            text-align: left;
-        }
     }
+}
+
+.intro {
+  text-align: left;
+}
+
+.overlay {
+  vertical-align: middle;
+  min-height: 360px;
+  height: 50vh;
+  width: 100%;
+  max-height: 800px;
+  position: absolute;
+  z-index: 2;
+  background: rgba(0,0,0,.55);
+}
+.overlay-lighter {
+  background: rgba(0,0,0,.1);
+}
+
+.featured-image {
+  vertical-align: middle;
+  min-height: 360px;
+  height: 50vh;
+  width: 100%;
+  max-height: 800px;
+  background-position: center center;
+  background-size: cover;
+  vertical-align: middle;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+  top: 0;
+  z-index: -1;
+  img {
+    max-height: 800px;
+  }
 }
 
 // Archive Page
@@ -358,162 +374,209 @@ header.site-header nav {
     display: block;
     margin: 0 auto;
     float: none;
-    padding-top: 80px;
-    
-    // Post Listing
-    .post-list {
-        list-style-type: none;
-        list-style: none;
-        @include column(7);
-        @include push(2);
-        display: block;
-        float: none;
-        
-        lh h2 {
-            margin-bottom: $lh*1.5;
-        }
-        
-        li {
-            display: block;
-            float: none;
-            font-size: $fs3;
-            margin-bottom: $lh*2;
-            position: relative;
-            
-            a {
-                position: relative;
-                &:hover {
-                    @include transit;
-                }
-            }
-            
-            a:hover:before {
-                content:'...';
-                color: $grey-light;
-                font-family: $sans;
-                position: absolute;
-                margin-left: -70px;
-                font-size: 40px;
-                left: 0;
-                top: -20px;
-                text-align: center;
-                @include transit;
-            }
-            
-            a:before {
-                content:'\201c';
-                color: $grey-light;
-                position: absolute;
-                margin-left: -70px;
-                font-size: 60px;
-                z-index: 10;
-                top: -6px;
-                left: 0;
-                text-align: center;
-                @include transit;
+    padding-top: 10px;
+}
 
-            }
-            
-            h1 {
-                font-size: $fs3;
-                font-style: italic;
-            }
-        }
-        
-        .summary {
-            font-size: 18px;
-            line-height: 1.45em;
-        }
-        
-        .date {
-            margin-bottom: 3px;
-        }
-        
-        .date time {
-            position: relative;
-            top: -3px;
-            font-size: $fs5;
-            font-weight: bold;
-            font-family: $sans;
-            font-style: normal;
-            color: $grey-light;
-            text-transform: uppercase;
-            vertical-align: middle;
-        }
+// Post Listing
+.index-post {
+  display: block;
+  float: none;
+  font-size: $fs3;
+  margin-bottom: $lh*2;
+  position: relative;
+}
+
+h1.index-post-title {
+  font-size: $fs3;
+}
+
+a.index-post-title-link {
+  position: relative;
+  &:hover {
+    @include transit;
+  }
+
+  &:hover:before {
+    content:'...';
+    color: $grey-light;
+    font-family: $sans;
+    position: absolute;
+    margin-left: -70px;
+    font-size: 40px;
+    left: 0;
+    top: -20px;
+    text-align: center;
+    @include transit;
+  }
+
+  &:before {
+    content:'\201c';
+    color: $grey-light;
+    position: absolute;
+    margin-left: -70px;
+    font-size: 60px;
+    z-index: 10;
+    top: -6px;
+    left: 0;
+    text-align: center;
+    @include transit;
+
+  }
+}
+
+.post-list {
+  list-style-type: none;
+  list-style: none;
+  @include column(7);
+  @include push(2);
+  display: block;
+  float: none;
+
+  lh h2 {
+    margin-bottom: $lh*1.5;
+  }
+
+  .summary {
+    font-size: 18px;
+    line-height: 1.45em;
+  }
+
+  .date {
+    margin-bottom: 3px;
+  }
+
+  .date time {
+    position: relative;
+    top: -3px;
+    font-size: $fs5;
+    font-weight: bold;
+    font-family: $sans;
+    font-style: normal;
+    color: $grey-light;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+}
+
+// Formatting for post text within index page
+.index-post-content {
+  figure {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  ul {
+    font-size: 20px;
+    display: block;
+    margin-bottom: $lh;
+    list-style: disc;
+    list-style-type: disc;
+    lh h1, lh h2, lh h3, lh h4, lh h5 {
+      @include underline(2px, solid, $grey-light);
     }
+    li {
+      list-style: disc;
+      list-style-type: disc;
+      margin-left: $lh*2;
+      padding-left: $lh/3;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  blockquote p {
+    font-size: 20px;
+    padding: 0 15px;
+  }
 }
  
 // Post Formatting
 
+.deets {
+  position: relative;
+  top: 45px;
+  z-index: 5;
+  .date {
+    font-size: $fs5;
+    position: relative;
+    top: 10px;
+    left: 6px;
+    color: $grey-medium;
+    margin-bottom: $lh/2;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: $lh auto;
+    @include br(4px);
+  }
+}
+
+figure {
+  margin: $lh 0;
+
+  img {
+    margin-bottom: $lh/2;
+  }
+
+  figcaption {
+    font-size: $fs5;
+    font-family: $sans;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: lighten($black, 50%);
+    text-align: center;
+  }
+}
+
 .post {
-    
-    min-height: 500px;
-    
-    .deets {
-        position: relative;
-        top: 45px;
-        z-index: 5;
-        .date {
-            font-size: $fs5;
-            position: relative;
-            top: 10px;
-            left: 6px;
-            color: $grey-medium;
-            margin-bottom: $lh/2;
-        }
-    }
-    
-    h1 {
-        font-style: italic;
-    }
-    
-    h1, h2, h3, h4, h5 {
-        padding-top: ($lh * 1/2);
-        margin-bottom: ($lh * 1/2);
-        line-height: 1.25em
 
-    }
-    
-    figure {
-        margin: $lh 0;
-        
-        img {
-            margin-bottom: $lh/2;
-        }
-        
-        figcaption {
-            font-size: $fs5;
-            font-family: $sans;
-            font-weight: bold;
-            text-transform: uppercase;
-            color: lighten($black, 50%);
-            text-align: center;
-        }
-    }
-    
-    img {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin: $lh auto;
-        @include br(4px);
-    }
-    
-        table {
-        margin-bottom: $lh;
-        width: 100%;
-        font-size: $fsp;
+  min-height: 500px;
 
-        caption {
-            font-size: $fs5;
-            font-family: $sans;
-            font-weight: bold;
-            text-transform: uppercase;
-            color: lighten($black, 50%);
-            text-align: center;
-            margin-bottom: $lh/2;
-        }
+  h1 {
+    font-style: italic;
+  }
+
+  h1, h2, h3, h4, h5 {
+    padding-top: ($lh * 1/2);
+    margin-bottom: ($lh * 1/2);
+    line-height: 1.25em
+
+  }
+
+  img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: $lh auto;
+      @include br(4px);
+  }
+    
+  table {
+    margin-bottom: $lh;
+    width: 100%;
+    font-size: $fsp;
+
+    caption {
+        font-size: $fs5;
+        font-family: $sans;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: lighten($black, 50%);
+        text-align: center;
+        margin-bottom: $lh/2;
     }
+  }
 
     tbody {
 	   tr:hover > td, tr:hover > th {
@@ -585,28 +648,28 @@ header.site-header nav {
             margin-bottom: 0;
             }
         } 
-    }  
-    
-    .share {
-        text-align: center;
-        display: block;
-        margin: 0 auto;
-        width: 76px;
-        font-size: $fs5;
-        font-family: $sans;
-        text-transform: uppercase;
-        font-weight: bold;
-        letter-spacing: 1px;
-        padding: 4px 6px 4px 6px;
-        color: $grey-light;
-        border: 2px solid transparentize($grey-light,.3);
-        @include br(4px);
-        &:hover {
-            color: $link;
-            border-color: transparentize($link,.3);
-            @include transit(all,.2s,ease)
-        }
     }
+}
+
+.share {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 76px;
+  font-size: $fs5;
+  font-family: $sans;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 4px 6px 4px 6px;
+  color: $grey-light;
+  border: 2px solid transparentize($grey-light,.3);
+  @include br(4px);
+  &:hover {
+    color: $link;
+    border-color: transparentize($link,.3);
+    @include transit(all,.2s,ease)
+  }
 }
 
 /* Footer Stuff */

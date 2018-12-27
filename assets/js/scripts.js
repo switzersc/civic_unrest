@@ -29,7 +29,7 @@ $(window).scroll(function() {
   var logo = $("#swap-logo");
   var header = $("header");
 
-  // TODO make responsive
+  // TODO make responsive and only on homepage
   if (this.scrollY < 400) {
     logo.addClass("hide-header-logo");
     header.removeClass("header-scrolled");

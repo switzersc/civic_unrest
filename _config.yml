@@ -32,8 +32,13 @@ markdown: kramdown
 future:      true
 highlighter: rouge
 
+
+
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+paginate: 10
 
 timezone:    America/New_York	
 
