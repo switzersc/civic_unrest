@@ -24,6 +24,21 @@ $(document).ready(function() {
     $('.featured-image').css("height", vH);
 });
 
+// Header/hero scrolling swap
+$(window).scroll(function() {
+  var logo = $("#swap-logo");
+  var header = $("header");
+
+  // TODO make responsive
+  if (this.scrollY < 400) {
+    logo.addClass("hide-header-logo");
+    header.removeClass("header-scrolled");
+  } else {
+    logo.removeClass("hide-header-logo");
+    header.addClass("header-scrolled");
+  }
+});
+
 
 $(function(){
   $('<img>').attr('src',function(){
