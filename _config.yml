@@ -12,8 +12,8 @@ tagline: ""
 description: >- # this means to ignore newlines until "baseurl:"
   A home for questions and research about civic technology.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://civicunrest.com" 
-canonical: https://civicunrest.com
+url: "http://shelbyswitzer.com/civic_unrest"
+canonical: "http://shelbyswitzer.com/civic_unrest"
 twitter_username: civic_unrest
 
 # Owner/author information
