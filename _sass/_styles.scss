@@ -13,7 +13,7 @@ body {
 }
 
 h1,h2,h3,h4,h5 {
-    font-family: $serif;
+    font-family: $sans;
 }
 
 p {
@@ -542,10 +542,6 @@ figure {
 .post {
 
   min-height: 500px;
-
-  h1 {
-    font-style: italic;
-  }
 
   h1, h2, h3, h4, h5 {
     padding-top: ($lh * 1/2);
