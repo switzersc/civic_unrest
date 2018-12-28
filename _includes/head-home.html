@@ -39,20 +39,20 @@
 <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
 
 <div class="bump">
-  <body class="">
+    <body class="">
     <header id="mono-header" class="site-header darken">
-      <div class="wrap">
-        <hgroup>
-          <a href="/"><img class="header-logo" src="{{ site.url }}/images/simple_title.png"/></a>
-        </hgroup>
-        <a href="#nav" class="menu header-nav"><span class='icons'>☰</span></a>
-        <nav role="navigation" class="header-nav">
-          <ul>
-            {% for link in site.links %}
-                <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
-            {% endfor %}
+        <div class="wrap">
+            <hgroup>
+                <a href="/"><img id="swap-logo" class="header-logo hide-header-logo" src="{{ site.url }}/images/simple_title.png"/></a>
+            </hgroup>
+            <a href="#nav" class="menu header-nav"><span class='icons'>☰</span></a>
+            <nav role="navigation" class="header-nav">
+                <ul>
+                    {% for link in site.links %}
+                    <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+                    {% endfor %}
 
-          </ul>
-        </nav>
-      </div>
+                </ul>
+            </nav>
+        </div>
     </header>
