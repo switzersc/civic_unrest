@@ -682,52 +682,56 @@ figure {
 }
 
 .copyright-text {
-    font-size: ($fs6);
-    text-align: center;
-    display: block;
-    width: 100%;
-    position: absolute;
-    bottom: -20px;
-    font-family: $sans;
-    text-transform: uppercase;
-    color: transparentize($white, .7);
-    a {
-        color: transparentize($white, .5);
-    }
+  font-size: ($fs6);
+  text-align: center;
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: -20px;
+  font-family: $sans;
+  text-transform: uppercase;
+  color: transparentize($white, .7);
+  a {
+    color: transparentize($white, .5);
+  }
+}
+
+.social-icon-link {
+  margin: 0 15px;
 }
 
 .prev-posts {
-    @include column(6,10);
-    max-width: 600px;
-    min-height: 250px;
-    padding-left: 5vw;
-    p {
-        padding-top: $lh*2;
-    }
-    li {
-        @include row(12);
-        margin-top: $lh/2;
-        .recent-title {
-            @include column(8,12);
-            font-style: italic;
-            a {
-                color: $grey-medium;
-                &:hover {
-                    color: $white;
-                }
-            }
+  @include column(6,10);
+  max-width: 600px;
+  min-height: 250px;
+  padding-left: 5vw;
+  text-align: center;
+  padding-top: 115px;
+  font-size: 40px;
+  li {
+    @include row(12);
+    margin-top: $lh/2;
+    .recent-title {
+      @include column(8,12);
+      font-style: italic;
+      a {
+        color: $grey-medium;
+        &:hover {
+          color: $white;
         }
-        span.date {
-            float: none;
-            color: $grey-medium;
-            @include column(4,12);
-            position: relative;
-            font-size: $fs5;
-            font-family: $sans;
-            text-transform: uppercase;
-            text-align: right;
-        }
+      }
     }
+    span.date {
+      float: none;
+      color: $grey-medium;
+      @include column(4,12);
+      position: relative;
+      font-size: $fs5;
+      font-family: $sans;
+      text-transform: uppercase;
+      text-align: right;
+    }
+  }
 }
 
 .list-title {
@@ -742,7 +746,6 @@ footer {
     background: $footer-grey;
     height: $footerHeight;
     font-size: $fsp;
-    color: $white;
     position: relative;
         
     // Contain that ish
@@ -755,10 +758,9 @@ footer {
 
     .social {
         position: absolute;
-        top: 109px;
-        @include column(2,12);
+        top: 40px;
+        @include column(4,12);
         right: 5vw;
-        font-style: italic;
         a {
             &:hover {
                 color: $white;
@@ -779,6 +781,28 @@ footer {
     margin-top: $lh*3;
 }
 
+/* MAILCHIMP SIGNUP STYLES */
+#mc_embed_signup {
+  background: $footer-grey !important;
+
+}
+#mc_embed_signup label {
+  color: $grey-dark !important;
+  font-family: $serif !important;
+  font-weight: normal !important;
+  font-size: 22px !important;
+}
+
+#mc_embed_signup .button {
+  margin-top: 10px !important;
+  max-width: 130px;
+}
+
+#mc_embed_signup input.email {
+  width: 100% !important;
+  max-width: 350px !important;
+}
+
 
 /* Tablet
    ========================================================================== */
@@ -797,16 +821,9 @@ footer {
 
     footer {
         font-size: $fs5;
-        .social {
-            right: 10vw;
-        }
     }
     .prev-posts {
         li  {
-            .recent-title {
-
-            }
-
             span.date {
                 font-size: $fs6;
             }
@@ -820,27 +837,35 @@ footer {
    ========================================================================== */
 
 @media only screen and (max-width: 500px) {
-    footer {
-    
-        .social {
-            display: none;
-        }
+  footer {
+    .social {
+      display: block;
+      position: relative;
+      float: none;
+      right: 0;
+      margin: 0;
+      top: 0;
+      width: 100%;
+    }
 
-        aside {
-            width: 90%;
-            margin: 0 auto;
-        }
-    }
-    .prev-posts {
-        @include column(9);
-        padding-left: 0;
-        float: none;
+    aside {
+        width: 90%;
         margin: 0 auto;
-        display: block;
-        li {
-            margin-top: $lh/2;
-        }
     }
+  }
+  .prev-posts {
+    @include column(9);
+    padding-left: 0;
+    float: none;
+    margin: 0 auto;
+    display: block;
+    li {
+        margin-top: $lh/2;
+    }
+  }
+  .copyright-text {
+    bottom: -165px;
+  }
 }
 
 @media only screen and (max-width : 680px) {
@@ -962,22 +987,26 @@ footer {
 
 @media only screen and (max-width: $breakpoint-1-max-width) {
 
-    .post {
-        @include column(9);
-        max-width: 420px;
-        display: block;
-        margin: 0 auto;
-        float: none;
-    }
+  .post {
+    @include column(9);
+    max-width: 420px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+  }
 
-    footer {
-        font-size: $fs5;
-    }
+  footer {
+    font-size: $fs5;
+  }
 
-    small {
-        font-size: $fs6;
-    }
+  small {
+    font-size: $fs6;
+  }
 
+  .post-list {
+    @include column(9);
+    @include push(1);
+  }
 }
 
 .header-logo {
