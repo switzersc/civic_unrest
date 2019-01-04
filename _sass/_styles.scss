@@ -668,6 +668,18 @@ figure {
   }
 }
 
+.footnote-item {
+  font-size: 16px;
+}
+
+a.body-footnote-link {
+  color: darkmagenta;
+}
+
+.footnote-block {
+  margin-bottom: 25px;
+}
+
 /* Footer Stuff */
 .push {
     height: $footerHeight/4 !important;
