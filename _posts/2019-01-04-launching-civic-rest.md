@@ -5,7 +5,7 @@ date:   2019-01-06 12:56:00 -0500
 categories: blog
 ---
 
-When you quit your job and start a passion project – a.k.a. this blog – how do you begin? With a flare for the dramatic, of course:
+When you quit your job and start a blog, how do you begin? With a flare for the dramatic, of course:
 
 *At long last, {CIVIC:UNREST} has raised its scaly head from the ashes of an empire where it has been developing like a fire-breathing fetus in the amniotic fluid of civic technology.*
 
