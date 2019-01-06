@@ -31,7 +31,7 @@ My work will be guided by the following pair of questions:
 
 I checked Merriam-Webster for definitions, but I’m not going to use them. To be clear, by “technology” I mean things to do with computers: software, hardware, data,<a href="#footnote4" class="body-footnote-link" name="footnote4anc"><sup>4</sup></a> “smart” devices, etc. By “public infrastructure,” I mean policies, systems, structures, and governments that communities create and own themselves. By “policies,” I mean legislation, management, or processes. I hope my definitions aren’t too fuzzy; I will refine as needed as I learn more.
 
-Alright – now, to get to work. Interested in following along? Check back here, or follow [my lovely new Twitter handle](https://twitter.com/civic_unrest),<a href="#footnote5" class="body-footnote-link" name="footnote5anc"><sup>5</sup></a> or subscribe to email updates below.
+Alright – now, to get to work. Interested in following along? Check back here, or follow [my lovely new Twitter handle](https://twitter.com/civic_unrest){:target="_blank"},<a href="#footnote5" class="body-footnote-link" name="footnote5anc"><sup>5</sup></a> or subscribe to email updates below.
 
 
 <div class="footnote-block">
@@ -58,7 +58,7 @@ I realize you don’t need computers for data, but come on, you know what I mean
 
 <div id="footnote5" class="footnote-item">
 <a href="#footnote5anc" name="footnote5sym">5</a> 
-Not to be confused with <a href="https://twitter.com/civicunrest">this cool kid</a>. Remember the underscore!
+Not to be confused with <a href="https://twitter.com/civicunrest" target="_blank">this cool kid</a>. Remember the underscore!
 </div>
 
 </div>
