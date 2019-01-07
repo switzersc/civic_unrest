@@ -1,7 +1,7 @@
 ---
 layout: post-no-feature
 title:  "Launching Civic Unrest"
-date:   2019-01-06 12:56:00 -0500
+date:   2019-01-07 08:15:00 -0500
 categories: blog
 ---
 
