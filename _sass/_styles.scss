@@ -60,6 +60,7 @@ blockquote, blockquote p {
     line-height: 1.3em;
     color: lighten($black, .2);
     margin-bottom: $lh;
+    padding: 0 50px;
 }
 
 
@@ -492,7 +493,6 @@ a.index-post-title-link {
 
   blockquote p {
     font-size: 20px;
-    padding: 0 75px;
   }
 }
  
@@ -549,7 +549,7 @@ figure {
   }
 
   img {
-      width: 100%;
+      width: 75%;
       height: auto;
       display: block;
       margin: $lh auto;
@@ -825,9 +825,9 @@ footer {
         font-size: $fs2;
     }
 
-    blockquote, blockquote p {
-        font-size: $fs3;
-    }
+    // blockquote, blockquote p {
+    //     font-size: $fs3;
+    // }
 
     footer {
         font-size: $fs5;
@@ -875,6 +875,10 @@ footer {
   }
   .copyright-text {
     bottom: -165px;
+  }
+
+  blockquote, blockquote p {
+    padding: 0 10px;
   }
 }
 

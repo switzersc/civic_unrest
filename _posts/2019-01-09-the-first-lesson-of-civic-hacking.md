@@ -22,7 +22,7 @@ That [project](https://github.com/codeforatlanta/show-me-the-food){:target="_bla
 
 ![Local Government API]({{ site.url }}/images/local-gov-api-thumbdrive.png)
 
-But more on the technology in a later post. In fact, it should tell you something that the first things I learned on my first brigade project weren’t really about technology at all. 
+But more on the technology in a later post. In fact, it should tell you something that the first things I learned on my first brigade project weren’t really about technology at all. My first real lesson in civic hacking was that I still had a lot to learn about my community and how it worked.
 
 *My introduction to civic hacking was actually an introduction to my city.*
 
