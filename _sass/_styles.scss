@@ -57,9 +57,7 @@ sup {
 }
 
 blockquote, blockquote p {
-    font-style: italic;
     line-height: 1.3em;
-    text-align: center;
     color: lighten($black, .2);
     margin-bottom: $lh;
 }
@@ -494,7 +492,7 @@ a.index-post-title-link {
 
   blockquote p {
     font-size: 20px;
-    padding: 0 15px;
+    padding: 0 75px;
   }
 }
  
@@ -514,7 +512,7 @@ a.index-post-title-link {
   }
 
   img {
-    width: 100%;
+    width: 65%;
     height: auto;
     display: block;
     margin: $lh auto;
