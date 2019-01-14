@@ -5,7 +5,7 @@ date:   2019-01-13 21:00:00 -0500
 categories: blog, civic hacking, code for america, atlanta
 ---
 
-Look, I know you’re ready to talk about data.<a href="#footnote1-20190113" class="body-footnote-link" name="footnote1anc-20190113"><sup>1</sup></a> About APIs. About open standards, tech policy, RFCs, PDFs, and all the other juicy stuff that goes into technology part of public infrastructure. Heck, I’m ready to talk about it too, but first, I have one more place to take you:
+Look, I know you’re ready to talk about data.<a href="#footnote1-20190113" class="body-footnote-link" name="footnote1anc-20190113"><sup>1</sup></a> About APIs. About open standards, tech policy, RFCs, PDFs, and all the other juicy stuff that goes into the technology part of public infrastructure. Heck, I’m ready to talk about it too, but first, I have one more place to take you:
 
 **Upper West Side, NYC:** You are in the dingy, fluorescently lit basement of a community senior center. It was perhaps a school at one point, the type of place where motivational posters thrive and multiply, and despite the pair of belly-up cockroaches in the hallway and the age of the paint on the walls, that inspirational vibe and thrum of purpose still linger. 
 
