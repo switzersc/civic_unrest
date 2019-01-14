@@ -465,10 +465,14 @@ a.index-post-title-link {
 
   h2 {
     font-size: 30px;
+    padding-top: ($lh * 1/2);
+    margin-bottom: ($lh * 1/2);
+    line-height: 1.25em
   }
 
   h3 {
     font-size: 26px;
+    
   }
 
   ul {
@@ -545,7 +549,6 @@ figure {
     padding-top: ($lh * 1/2);
     margin-bottom: ($lh * 1/2);
     line-height: 1.25em
-
   }
 
   img {
