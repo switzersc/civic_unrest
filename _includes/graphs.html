@@ -4,10 +4,22 @@
 <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 120  }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <meta property="og:site_name" content="{{ site.title }}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@civic_unrest">
+<meta name="twitter:site" content="@civic_unrest">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 120  }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
+
 {% if page.image.feature %}
-<meta property="og:image" content="{{ page.image.feature }}">
+
+	<meta property="og:image" content="{{ site.url }}/images/{{ page.image.feature }}">
+
+	<meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.image.feature }}">
+
 {% else %}
-  <meta property="og:image" content="/images/viaduct_black_type.png">
+  <meta property="og:image" content="{{ site.url }}/images/viaduct_black_type.png">
+	<meta name="twitter:image:src" content="{{ site.url }}/images/viaduct_black_type.png">
 {% endif %}
 
 
