@@ -93,7 +93,7 @@ There are so many more examples of progress being made in open and participatory
 
 	<div id="footnote2-20190207" class="footnote-item">
 	<a href="#footnote2anc-20190207" name="footnote2sym-20190207">2</a> 
-	 This Italian politician recently talking about Italy’s civic tech (link) said that that governments are here to make our lives better, but IMO they’re not: governments are here to uphold rights and anything else is a bonus.
+	 Italy's first Digital Commissioner <a href="https://govinsider.asia/innovation/exclusive-italys-first-digital-commissioner-on-leading-change/" target="_blank">recently said</a> that governments are here to make our lives better, but IMO they’re not: governments are here to uphold rights and anything else is a bonus.
 	</div>
 
 	<div id="footnote3-20190207" class="footnote-item">
