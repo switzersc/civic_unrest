@@ -1,9 +1,9 @@
 <!-- DSLs for various open graph languages -->
-<meta name="locale" property="og:locale" content="{{ site.opengraph.locale }}">
-<meta name="title" property="og:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
-<meta name="description" property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 120  }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
-<meta name="url" property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta name="site_name" property="og:site_name" content="{{ site.title }}">
+<meta name="locale" property="og:locale" prefix="og: http://ogp.me/ns#" content="{{ site.opengraph.locale }}">
+<meta name="title" property="og:title" prefix="og: http://ogp.me/ns#" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
+<meta name="description" property="og:description" prefix="og: http://ogp.me/ns#" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 120  }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
+<meta name="url" property="og:url" prefix="og: http://ogp.me/ns#" content="{{ site.url }}{{ page.url }}">
+<meta name="site_name" property="og:site_name" prefix="og: http://ogp.me/ns#" content="{{ site.title }}">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:creator" content="@civic_unrest">
@@ -13,12 +13,12 @@
 
 {% if page.image.feature %}
 
-	<meta name="image" property="og:image" content="{{ site.url }}/images/{{ page.image.feature }}">
+	<meta name="image" property="og:image" prefix="og: http://ogp.me/ns#" content="{{ site.url }}/images/{{ page.image.feature }}">
 
 	<meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.image.feature }}">
 
 {% else %}
-  <meta name="image" property="og:image" content="{{ site.url }}/images/viaduct_black_type.png">
+  <meta name="image" property="og:image" prefix="og: http://ogp.me/ns#" content="{{ site.url }}/images/viaduct_black_type.png">
 	<meta name="twitter:image:src" content="{{ site.url }}/images/viaduct_black_type.png">
 {% endif %}
 
