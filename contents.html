@@ -1,0 +1,22 @@
+---
+layout: page
+title: Contents
+permalink: /contents/
+---
+
+<table class="contents">
+{% for post in site.posts %}
+
+    <tr class="contents-item">
+
+        <td class="contents-item-date">{{ post.date | date: "%Y-%m-%d" }} </td>
+
+        <td class="contents-item-block"><a href="{{ post.url }}">{{ post.title }}</a>
+        <br>
+        <div class="contents-tags">{{ post.tags | join: ", " }}</div>
+        </td>
+
+    </tr>
+
+{% endfor %}
+</table>

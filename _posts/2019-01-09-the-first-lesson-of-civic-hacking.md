@@ -2,7 +2,12 @@
 layout: post-no-feature
 title:  "The First Lesson of Civic Hacking"
 date:   2019-01-09 11:30:00 -0500
-categories: blog, civic hacking, code for america, atlanta
+tags:
+- civic hacking
+- code for america
+- civic tech
+- community
+- atlanta
 ---
 
 **Atlanta:** Training ground of Outkast, boaster of the 10th largest GDP in the nation,<a href="#footnote1-20190109" class="body-footnote-link" name="footnote1anc-20190109"><sup>1</sup></a> early bastion of hipster coffee shops in the South, and eccentric, concrete star of the eponymous FX show made by Donald Glover. Also: where I joined a [Code for America](https://www.codeforamerica.org/){:target="_blank"} brigade for the first time.

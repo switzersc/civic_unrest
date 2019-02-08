@@ -2,7 +2,8 @@
 layout: post-no-feature
 title:  "Launching Civic Unrest"
 date:   2019-01-07 08:15:00 -0500
-categories: blog
+tags:
+- meta
 ---
 
 When you quit your job and launch your passion project, how do you begin? With a flare for the dramatic, of course:

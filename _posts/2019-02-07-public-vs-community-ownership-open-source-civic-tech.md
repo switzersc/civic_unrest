@@ -2,7 +2,16 @@
 layout: post
 title:  "Public vs. Community Ownership in the Age of Open Source Civic Tech"
 date:   2019-02-07 16:00:00 -0500
-categories: blog, infrastructure, public sector, civic tech, community-owned, nycmesh, open source
+tags:
+- infrastructure
+- public sector
+- civic tech
+- community
+- nonprofits
+- nycmesh
+- open source
+- github
+- code for america
 image:
   feature: "dirt-road.jpg"
 ---

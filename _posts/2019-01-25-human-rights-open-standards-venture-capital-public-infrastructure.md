@@ -2,7 +2,15 @@
 layout: post-no-feature
 title:  "What do human rights, open standards, and venture capital have to do with public infrastructure?"
 date:   2019-01-25 11:00:00 -0500
-categories: blog, infrastructure, private sector, human rights, public sector, open referral
+tags:
+- infrastructure
+- public sector
+- private sector
+- human rights
+- open referral
+- healthify
+- 211
+- nonprofits
 ---
 
 What so much of the conversation around civic tech boils down to is the question of public/private partnerships. What is the role of companies, specifically tech companies, in our communities, and what is the role of government? And, assuming we will always have both,<a href="#footnote1-20190125" class="body-footnote-link" name="footnote1anc-20190125"><sup>1</sup></a> how should they work together for public good?

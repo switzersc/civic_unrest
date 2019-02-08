@@ -2,7 +2,13 @@
 layout: post-no-feature
 title:  "Local Government Needs are More Than Technological"
 date:   2019-01-13 21:00:00 -0500
-categories: blog, civic hacking, betanyc, nyc, local gov
+tags:
+- civic tech
+- civic hacking
+- betanyc
+- nyc
+- local gov
+- community
 ---
 
 Look, I know you’re ready to talk about data.<a href="#footnote1-20190113" class="body-footnote-link" name="footnote1anc-20190113"><sup>1</sup></a> About APIs. About open standards, tech policy, RFCs, PDFs, and all the other juicy stuff that goes into the technology part of public infrastructure. Heck, I’m ready to talk about it too, but first, I have one more place to take you:

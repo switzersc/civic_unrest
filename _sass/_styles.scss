@@ -208,7 +208,7 @@ input {
     overflow: hidden;
 }
 
-.post {
+.page {
     @include column(8);
     max-width: 680px;
     display: block;
@@ -835,6 +835,16 @@ footer {
   max-width: 350px !important;
 }
 
+.contents {
+  font-size: $fs5;
+  border-collapse: separate;
+  border-spacing: 15px;
+}
+
+.contents-tags {
+  font-style: italic;
+  margin-top: 7px;
+}
 
 /* Tablet
    ========================================================================== */
