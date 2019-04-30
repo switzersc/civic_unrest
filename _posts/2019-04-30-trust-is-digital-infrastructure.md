@@ -103,4 +103,6 @@ It’s therefore also worrying to me when governments choose to trust private co
 	<a href="#footnote4anc-20190430" name="footnote4sym-20190430">4</a> 
 	One could argue that vendors currently hold the government hostage through the procurement system, but I’m not going to dive into that right now.
 	</div>
+	
+	<p style="font-size: 0.9rem;font-style: italic;">Post header image <a href="https://www.flickr.com/photos/60723528@N00/38298422">"DC2"</a><span>by <a href="https://www.flickr.com/photos/60723528@N00">Tim Dorr</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-sa/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-SA 2.0</a><a href="https://creativecommons.org/licenses/by-sa/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;opacity: .7;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;" src="https://search.creativecommons.org/static/img/cc_icon.svg" /><img style="height: inherit;margin-right: 3px;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /><img style="height: inherit;margin-right: 3px;" src="https://search.creativecommons.org/static/img/cc-sa_icon.svg" /></a></p>
 </div>
