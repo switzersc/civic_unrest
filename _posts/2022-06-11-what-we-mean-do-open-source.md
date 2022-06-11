@@ -44,6 +44,6 @@ Likewise, government teams can realize a huge amount of value by supporting publ
 <div class="footnote-block">
 
 <div class="footnote-item">
-Header image attribution: "Dictionary" by <a href="https://www.flickr.com/photos/29598412@N00" target="_blank">greeblie</a> is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse. 
+Header image attribution: "Dictionary" by <a href="https://www.flickr.com/photos/29598412@N00" target="_blank">greeblie</a> is licensed under <a href="https://creativecommons.org/licenses/by/2.0/?ref=openverse" target="_blank">CC BY 2.0</a>.
 </div>
 </div>
