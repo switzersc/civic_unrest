@@ -16,7 +16,7 @@ image:
 
 I hear “participatory” being thrown around a lot these days, including by myself. [Participatory budgeting](https://www.participatorybudgeting.org/){:target="_blank"}. [Participatory democracy](https://thebrooklyninstitute.com/items/courses/new-york/participatory-democracy/){:target="_blank"}. [Participatory modeling](https://www2.econ.iastate.edu/tesfatsi/ParticipatoryModelingWhatWhyHow.AVoinov.March2010.pdf){:target="_blank"}. [Participatory development](https://www.unm.edu/~soc101/participate.htm){:target="_blank"}. It’s an idea I wholeheartedly strive for in my own work with governments and communities, with varying degrees of success and frustration. But what does this actually look like, for public digital infrastructure and the policies/programs that technology supports?
 
-“Participatory” fundamentally means “affording the opportunity for individual participation.”<a href="#footnote1-20220810" class="body-footnote-link" name="footnote1anc-20220810"><sup>1</sup></a> I’ll let you dive into the links about for other examples of how to apply “participatory” to important public policy programs, but for tech, I’ve summarized how we can think about levels of participatory engagement in a maturity model, illustrated by this pyramid chart with a deliciously default blue gradient.
+“Participatory” fundamentally means “affording the opportunity for individual participation.”<a href="#footnote1-20220810" class="body-footnote-link" name="footnote1anc-20220810"><sup>1</sup></a> I’ll let you dive into the links above for other examples of how to apply “participatory” to important public policy programs, but for tech, I’ve summarized how we can think about levels of participatory engagement in a maturity model, illustrated by this pyramid chart with a deliciously default blue gradient.
 
 ![Participatory Maturity Model]({{ site.url }}/images/Participatory-Maturity-Model.png)
 
@@ -56,7 +56,7 @@ What this indicates is that you can’t separate the tech from the programs or p
 
 	<div id="footnote1-20220810" class="footnote-item">
 	<a href="#footnote1anc-20220810" name="footnote1sym-20220810">1</a>
-      As a side note, it’s annoyingly difficult to make a noun out of – do we really want to say “participatoriness?” Ah well.
+      From an online dictionary. As a side note, it’s annoyingly difficult to make a noun out of – do we really want to say “participatoriness?” Ah well.
 	</div>
 
 	<div id="footnote2-20220810" class="footnote-item">
