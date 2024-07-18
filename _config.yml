@@ -73,8 +73,12 @@ opengraph:
 #   - vendor/gems/
 #   - vendor/ruby/
 links:
-  - title: Contents
-    url: /contents
+  - title: Posts
+    url: /posts
+  - title: Pubs
+    url: /pubs
+  - title: Projects
+    url: /projects
   - title: About
     url: /about
 
